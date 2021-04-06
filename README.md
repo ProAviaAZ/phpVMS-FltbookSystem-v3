@@ -1,8 +1,8 @@
-# Fltbook-System
-A redesigned phpVMS Module modified to allow pilots to select their own aircraft prior to booking a flight.
+# Fltbook-System Version 3 - Advanced Booking Management
+A redesigned phpVMS Module modified to allow pilots to select their own aircraft prior to booking a flight with additional advanced features.
 
 --------------------
-NOTICE: Some of the code has been derived from it's owners on the phpVMS forums and has been compiled by Web541
+NOTICE: Some of the code has been derived from it's owners on the phpVMS forums and has been compiled by Web541 and Thunder175.
 
 	FrontSchedules - Simpilot
     RealScheduleLite - Simpilot
@@ -24,7 +24,7 @@ So for all schedules with American Airlines B738, you would make a dummy aircraf
 ----------------------
  Installation
 ----------------------
-1. Make sure you have phpVMS version 5.5.x (located here https://github.com/DavidJClark/phpvms_5.5.x)
+1. Make sure you have phpVMS version 5.5.x (located here https://github.com/DavidJClark/phpvms_5.5.x) or version 6. Does not work with phpVMS version 7. 
 2. Backup all necessary files. I take no responsibility for you losing your files.
 3. Place all the files in their respective directory.
 4. Upload the fltbook.sql file to your sql database via phpmyadmin or similar
@@ -38,6 +38,7 @@ Each one has a description of what they can do.
 ----------------------
 Changelog
 ----------------------
+	v3.0.0 - Version 3 Update - Includes even more functionality and additional settings
 	v2.0.0 - Version 2 Update - Includes added functionality + complete settings panel
 	v1.0.0 - Inital Release
 
